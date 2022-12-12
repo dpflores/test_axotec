@@ -122,7 +122,7 @@ Highcharts.stockChart('container', {
                 setInterval(function () {
                     
                     var JSON=$.ajax({
-                    url:"http://192.168.88.187/test_axotec/datos.php?q=1",
+                    url:"http://localhost/test_axotec/datos.php?q=1",
                     dataType: 'json',
                     async: false}).responseText;
                     var Respuesta=jQuery.parseJSON(JSON);
